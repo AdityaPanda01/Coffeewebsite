@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <linK rel="stylesheet" href="style-menu.css">
+</head>
+
+<body>
+    <!--header section starts-->
+    <header class="header">
+        <div class="logo">
+            <img src="https://static.vecteezy.com/system/resources/previews/000/403/231/original/premium-quality-coffee-shop-logo-vector.jpg"
+                alt="">
+        </div>
+        <div class="options">
+            <ul>
+                <li class="list"><a href="index.html">Home</a></li>
+                <li class="list"><a href="Aboutus.html">About us</a></li>
+                <li class="list"><a href="menu.html">Menu</a></li>
+                <li class="list"><a href="">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <div class="home-icons">
+            <button id="searchbar" onclick="searchbar()"><i class="fa-solid fa-magnifying-glass fa-xl" id="search-btn"
+                    style="color: #a4a2a2;"></i></button>
+                    <button id="cart-out"><i class="fa-solid fa-cart-shopping fa-xl" id="cart-btn" style="color: #a4a2a2;"></i></button>
+            
+          <button id="menubar" onclick="menubar()"><i class="fa-solid fa-coffee fa-xl" id="bars-btn"
+                    style="color: #a4a2a2;"></i></button>
+
+
+        </div>
+        <div class="clicks">
+            <div class="search-form">
+                <input type="text" id="search-box" placeholder="Search here">
+                <label for="search-box"></label>
+            </div>
+
+
+        </div>
+    </header>
+    <!---header ends-->
+    <div class="menu-body">
+        <div id="menu">
+            <div class="menu1">
+                <img src="https://tse3.explicit.bing.net/th?id=OIP.LdQfkAR02VCqNd3OVPEQBAHaE8&pid=Api&P=0&h=180" alt=""
+                    class="menupic">
+                <h3>Special ground coffee</h3>
+                <h4>Price:15$</h4>
+            </div>
+            <div class="menu1">
+                <img src="https://tse3.explicit.bing.net/th?id=OIP.LdQfkAR02VCqNd3OVPEQBAHaE8&pid=Api&P=0&h=180" alt=""
+                    class="menupic">
+                <h3>Special ground coffee</h3>
+                <h4>Price:15$</h4>
+            </div>
+            <div class="menu1">
+                <img src="https://tse3.explicit.bing.net/th?id=OIP.LdQfkAR02VCqNd3OVPEQBAHaE8&pid=Api&P=0&h=180" alt=""
+                    class="menupic">
+                <h3>Special ground coffee</h3>
+                <h4>Price:15$</h4>
+            </div>
+            
+        </div>
+
+
+        <div class="main-box">
+            <div class="second-box">
+                <div class="sub-box">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.iuXuV3I1W9x3H6EVzOa8XwAAAA&pid=Api&P=0&h=180" class="x" alt="">
+                    <h3>Hot Coffee</h3>
+                    <h4>Price:$2</h4>
+                    <button class="add-cart" data-product="Hot-coffee" data-price="1.5">Add to Cart</button>
+                </div>
+                <div class="sub-box">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.fyZBxNfla_DVDyuo9Lg4eQHaFj&pid=Api&P=0&h=180" class="x" alt="">
+                    <h3>Black Coffee</h3>
+                    <h4>Price:$2</h4>
+                    <button class="add-cart"data-product="Hot-coffee" data-price="1.5" >Add to Cart</button>
+                </div>
+                <div class="sub-box">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.2jlmjo0AyaaJV1Xr2thl7AHaE8&pid=Api&P=0&h=180" alt="" class="x">
+                <h3>Cappuccino</h3>
+                <h4>Price:$3</h4>
+                <button class="add-cart"data-product="Hot-coffee" data-price="1.5" >Add to Cart</button>
+                </div>
+                <div class="sub-box">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.RnHE5xwHzGHXOe4uyH-OyQHaFa&pid=Api&P=0&h=180" alt="" class="x">
+                <h3>Frappe</h3>
+                <h4>Price:$4</h4>
+                <button class="add-cart" data-product="Hot-coffee" data-price="1.5">Add to Cart</button>
+                </div>
+                <div class="sub-box">
+                    <img src="https://www.coffeecityusa.com/wp-content/uploads/2018/01/8-frappe.jpg" alt="" class="x">
+                    <h3>Mocha Coffee</h3>
+                    <h4>Price:$4</h4>
+                    <button class="add-cart"data-product="Hot-coffee" data-price="1.5" >Add to Cart</button>
+                </div>
+            </div>
+            <div class="second-box">
+                <div class="sub-box">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.2m86YwVZYHm4kb2zXVO19AHaKy&pid=Api&P=0&h=180" alt="" class="x">
+                    <h3>Cold Coffee</h3>
+                    <h4>Price:$4</h4>
+                    <button class="add-cart"data-product="Hot-coffee" data-price="1.5" >Add to Cart</button>
+                </div>
+                <div class="sub-box">
+                    <img src="https://cafe1820.com/wp-content/uploads/2020/03/espresso-P3VSFDV-scaled.jpg" alt="" class="x">
+                    <h3>Espresso Coffee</h3>
+                    <h4>Price:$1.5</h4>
+                    <button class="add-cart" data-product="Hot-coffee" data-price="1.5">Add to Cart</button>
+                </div>
+                <div class="sub-box">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.qQSvrWW0ciWmw3RdHWoeNwHaLH&pid=Api&P=0&h=180" alt="" class="x">
+                    <h3>Bischoff Shake</h3>
+                    <h4>Price:$1.5</h4>
+                    <button class="add-cart" data-product="Hot-coffee" data-price="1.5">Add to Cart</button>
+                </div>
+                <div class="sub-box">
+                    <img src="https://www.mydomaine.com/thmb/p5p1izRS7igk2AFSUQU33fVGl04=/800x0/filters:no_upscale():max_bytes(150000):strip_icc()/slow-cooker-hot-chocolate-4-23faf3a3a5e643be9ebd6dce1dd8ab91.jpg" alt="" class="x">
+                    <h3>Hot Chocolate</h3>
+                    <h4>Price:$1.5</h4>
+                    <button class="add-cart"data-product="Hot-coffee" data-price="1.5" >Add to Cart</button>
+                </div>
+                <div class="sub-box">
+                    <img src="https://g6c4m6d2.rocketcdn.me/wp-content/uploads/2014/02/macchiato-crop-feat-im.jpg" alt="" class="x">
+                    <h3>Machiatto Coffee</h3>
+                    <h4>Price:$1.5</h4>
+                    <button class="add-cart" data-product="Hot-coffee" data-price="1.5">Add to Cart</button>
+                </div>
+            </div>
+            <div class="second-box">
+                <div class="sub-box">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.hfGfb4bACzwkFIm8QWk79wHaHa&pid=Api&P=0&h=180" alt="" class="x">
+                    <h3>Croissant</h3>
+                    <h4>Price:$1.5</h4>
+                    <button class="add-cart" data-product="Hot-coffee" data-price="1.5">Add to Cart</button>
+                </div>
+                <div class="sub-box">
+                    <img src="https://nishkitchen.com/wp-content/uploads/2019/01/Chicken-Puff-2B.jpg" alt="" class="x">
+                    <h3>Puff</h3>
+                    <h4>Price:$4</h4>
+                    <label for="non-veg">Non-Veg</label>
+    <input type="radio" id="non-veg" name="puff">
+    <lable for="radio" id="veg">Veg</lable>
+    <input type="radio" id="veg" name="puff">
+                    <button class="add-cart" data-product="Hot-coffee" data-price="1.5">Add to Cart</button>
+                </div>
+                <div class="sub-box">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.nbh8G9yC8lsaEBkWdoFQ0wHaE7&pid=Api&P=0&h=180" alt="" class="x">
+                    <h3>Tart</h3>
+                    <h4>Price:$3</h4>
+                    <button class="add-cart" data-product="Hot-coffee" data-price="1.5">Add to Cart</button>   
+                </div>
+                <div class="sub-box">
+                    <img src="https://i.ytimg.com/vi/wK9niZ3BPVQ/maxresdefault.jpg" alt="" class="x">
+                    <h3>Tart</h3>
+                    <h4>Price:$3</h4>
+                    <button class="add-cart"data-product="Hot-coffee" data-price="1.5" >Add to Cart</button>
+                </div>
+                <div class="sub-box">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.NgSreSRUQcd6D4jhhNjDmAHaE8&pid=Api&P=0&h=180" alt="" class="x">
+                    <h3>Sandwich</h3>
+                    <h4>Price:$3</h4>
+                    <label for="non-veg">Non-Veg</label>
+                    <input type="radio" id="non-veg" name="sandwich">
+                    <lable for="radio" id="veg">Veg</lable>
+                    <input type="radio" id="veg" name="sandwich">
+                    <button class="add-cart" data-product="Hot-coffee" data-price="1.5">Add to Cart</button>
+                </div>
+            </div> 
+        </div>
+        <div class="text">*Term and conditions Apply</div>
+        <div class="text">*Pastries are eggless</div>
+       
+        <div id="cart">
+            <h2>Shopping Cart</h2>
+            <p id="totalPrice">Total Price:$0</p>
+          </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
